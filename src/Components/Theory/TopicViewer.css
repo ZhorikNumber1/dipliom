@@ -1,0 +1,19 @@
+.topic-viewer {
+    height: 100%;
+  }
+  
+  .topic-viewer h2 {
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .topic-content {
+    height: calc(100% - 60px);
+    overflow-y: auto;
+    padding-right: 10px;
+  }
+  
+  .topic-content p {
+    white-space: pre-wrap;
+  }
+  
