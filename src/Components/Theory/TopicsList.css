@@ -1,0 +1,79 @@
+.topics-container {
+    display: flex;
+    height: 95vh;
+    background-color: #595959;
+
+  }
+  
+  .topics-list {
+    width: 20%;
+    background-color: #f5f5f5;
+    border-right: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .topic-button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .topic-button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .topic-viewer-container {
+    width: 80%;
+    padding: 20px;
+    position: relative;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    background-color: white;
+
+  }
+  
+  .next-topic-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 1s;
+  }
+  
+  .next-topic-button:hover {
+    background-color: #5c5a07;
+  }
+.div-main{
+    background-color: white;
+    border-radius: 20px;
+    
+}
+.next-topic-button {
+    position: absolute;
+    top: 20px;  
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .next-topic-button:hover {
+    background-color: #0056b3;
+  }

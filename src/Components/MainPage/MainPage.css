@@ -1,0 +1,55 @@
+.home {
+    text-align: center;
+    padding: 20px;
+    background-image: url('./../../Img/Header2.png');
+    min-height: 98vh;
+    background-color: black;
+  }
+  
+  .home-header {
+    background-size: cover;
+    color: #fff;
+    padding: 50px 20px;
+  }
+  
+  .home-content {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    
+  }
+  .img_page1{
+    margin-bottom: 26px;
+    width: 600px;
+    height: auto;
+    margin-left: 20px;
+  }
+  .img_page1{
+    margin-bottom: 26px;
+    height: auto;
+  }
+  .card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    width: 500px;
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+
+  }
+  
+  .card h2 {
+    margin-bottom: 10px;
+    text-decoration: none;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
