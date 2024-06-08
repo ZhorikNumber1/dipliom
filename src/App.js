@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import MainPage from './Components/MainPage/MainPage';
 import NavBar from './Components/NavBar/NavBar';
 import TopicsList from './Components/Theory/TopicsList';
+import Practice from './Components/Practice/Practice';
 function App() {
   return (
     <Router>
@@ -11,7 +12,7 @@ function App() {
         <Routes>
           <Route path="/" element={<MainPage />} />
           <Route path="/theory" element={<TopicsList />} />
-          <Route path="/practice" element={<div>Практика</div>} />
+          <Route path="/practice" element={<Practice />} />
         </Routes>
       </div>
     </Router>
